@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+    <section class="task" id="task1">
+      <h2>Task 1</h2>
+      <p>
+        Use Javascript to target the empty div below and set the `innerText` value to something new. Write your code in the attached
+        <code>script.js</code> file and click the button to see if it works.
+      </p>
+      <div id="text-content"></div>
+      <button onclick="task1()">Run task 1!</button>
+    </section>
+    <section class="task" id="task2">
+      <h2>Task 2</h2>
+      <p>
+        Use Javascript to target this section and change its
+        <code>background-color</code> property to something new. You'll need to
+        update the <code>style</code> property on the object when you have it
+        targeted.
+      </p>
+      <em
+        >Hint: You can <code>console.log()</code> anything - if you have the
+        right element targeted with your script, it should print the HTML in the
+        console.</em
+      >
+      <button onclick="task2()">Run task 2!</button>
+    </section>
+    <section class="task" id="task3">
+      <h2>Task 3</h2>
+      <p>
+        Write some Javascript which will insert a new <code>li</code> into the
+        list below. This one is tricky! Remember, you need to create the element
+        _before_ it is added to the parent.
+      </p>
+      <em
+        >Hints:
+        <ul>
+          <li>
+            Use variables to find document objects and save them for easy
+            reference.
+          </li>
+          <li>
+            You'll need to use all three methods you learned about to make this
+            one work
+          </li>
+        </ul>
+      </em>
+      <h3>My to do list</h3>
+      <ul id="list">
+        <li>Read that book</li>
+        <li>Wash the car</li>
+      </ul>
+     <button onclick="task3()">Run task 3!</button>
+    </section>
+    </main>
+  </body>
+</html>
