@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Ex04 Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="task" id="task1">
+        <h2>Task 1</h2>
+        <p>
+          Start by creating your own array of data in the Javascript file. It
+          can be any data you like. Do not change the array name already in the
+          template. When you run your task with the button below, that data
+          should be added to the page.
+        </p>
+        <div id="task-1-target"></div>
+        <button onclick="task1()">Run task 1!</button>
+      </section>
+      <section class="task" id="task2">
+        <h2>Task 2 A</h2>
+        <p>
+          Instead of building your array manually in your script, collect data
+          from the DOM. Use the correct method of getting all instances of
+          colors in this container and then print them in the console. The DOM
+          should not change in this example.
+        </p>
+        <ul id="color-list">
+          <li>Red</li>
+          <li>Orange</li>
+          <li>Yellow</li>
+          <li>Green</li>
+          <li>Blue</li>
+          <li>Violet</li>
+        </ul>
+        <p>
+          Once you get part A working, now it's time to update the DOM. Here's
+          another list. Collect all the items in the list and then add them to
+          the target div, but not just the names: the new text should have the
+          word "Hi" added in front for each entry.
+        </p>
+        <ul id="name-list">
+          <li>Mr. Bennett</li>
+          <li>Mrs. Frost</li>
+          <li>Mr. Cribley</li>
+          <li>Mrs. Lentz</li>
+          <li>Mr. Pruett</li>
+        </ul>
+        <button onclick="task2A()">Run task 2A!</button>
+        <button onclick="task2B()">Run task 2B!</button>
+      </section>
+      <section class="task" id="task3">
+        <h2>Task 3</h2>
+        <p>
+          Now, put all your skills together. Here is another list, but of CSS
+          hex color codes. Loop over the list and change the `background-color`
+          style property on each element to be the color code itself.
+        </p>
+        <div class="box flex">
+          <div class="item">
+            <p>F72585</p>
+          </div>
+          <div class="item">
+            <p>7209B7</p>
+          </div>
+          <div class="item">
+            <p>3A0CA3</p>
+          </div>
+          <div class="item">
+            <p>4361EE</p>
+          </div>
+          <div class="item">
+            <p>4CC9F0</p>
+          </div>
+        </div>
+        <button onclick="task3()">Run task 3!</button>
+      </section>
+    </main>
+  </body>
+</html>
