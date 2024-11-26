@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Ex05</title>
+    <!-- Defer loading the script so the DOM is ready when it runs. -->
+    <script
+      src="script.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <section class="task" id="task1">
+        <h2>Task 1</h2>
+        <p>
+          Create your own object in the script file. Don't copy and paste from the introduction document - use your own idea to set keys and values for the object. It should represent a real-world thing and have
+          <em>at least</em>
+          four
+          <code>key: value</code>
+          pairs.
+        </p>
+        <p>
+          Assign your object to a variable and then
+          <code>console.log</code>
+          your object when the script is run.
+        </p>
+        <button onclick="task1()">Run task 1!</button>
+      </section>
+      <section class="task" id="task2">
+        <h2>Task 2</h2>
+        <p>
+          Write some HTML that will hold information about a person. It should have labels for each field (name, subject, etc) that are blank when the page loads. Then, update the
+          <code>task2()</code>
+          function in the script file to load information from the
+          <code>person</code>
+          object into the DOM when you click the button.
+        </p>
+        <button onclick="task2()">Load the data!</button>
+      </section>
+      <section class="task" id="task3">
+        <h2>Task 3</h2>
+        <p>
+          Now, put all your skills together. There is an array of objects in the script file. You need to:
+          <ul>
+            <li>Iterate (loop) over the array</li>
+            <li>Add a property to each object</li>
+            <li>Insert the object as text into the
+              <code>#task3</code>
+              container.</li>
+          </ul>
+        </p>
+        <button onclick="task3()">Run task 3!</button>
+      </section>
+    </main>
+  </body>
+</html>

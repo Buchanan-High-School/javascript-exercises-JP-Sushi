@@ -1,0 +1,41 @@
+:root {
+  font-size: 16px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+}
+
+main > * + * {
+  margin-top: 1em;
+}
+
+button {
+  display: block;
+  margin: 1rem 0;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  background-color: #7BF1A8;
+  border: 2px solid #0C6F32;
+}
+
+code {
+    background-color: #adadad;
+    padding-inline: 0.25em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.task {
+  border: 2px solid #cdcdcd;
+  padding: 1rem;
+}
+
