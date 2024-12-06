@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Ex03 Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="task" id="task1">
+        <h2>Task 1</h2>
+        <p>
+          Sometimes, you want to be able to adjust every element on the page
+          without having to target each one specifically. Use
+          <code>document.querySelectorAll()</code> to target each of the boxes below. 
+        </p>
+        <p>If your code is written correctly, each box will change when you hover over it after clicking the "Run task 1" button.</p>
+        <ul id="list">
+          <li>On</li>
+          <li>On</li>
+          <li>On</li>
+          <li>On</li>
+          <li>On</li>
+          <li>On</li>
+        </ul>
+        <button onclick="task1()">Run task 1!</button>
+      </section>
+      <section class="task" id="task2">
+        <h2>Task 2</h2>
+        <p>
+          There is a square hidden behind the circle below. Use your script to
+          remove the circle, revealing the square behind.
+        </p>
+        <div id="container">
+          <div id="square"></div>
+          <div id="circle"></div>
+        </div>
+        <button onclick="task2()">Run task 2!</button>
+      </section>
+      <section class="task" id="task3">
+        <h2>Task 3</h2>
+        <p>
+          For this task, insert a new div at the <b>start and end</b> of the container. Bonus points if you can figure out how to add the class <code>new</code> to the new divs so they look different from the others.
+        </p>
+        <div class="box flex">
+          <div class="item" id="item1">
+          <p>This is the first item</p>
+          </div>
+          <div class="item" id="item2">
+          <p>This is the second item</p>
+          </div>
+          <div class="item" id="item3">
+          <p>This is the third item</p>
+          </div>
+        </div>
+        <button onclick="task3()">Run task 3!</button>
+      </section>
+    </main>
+  </body>
+</html>
