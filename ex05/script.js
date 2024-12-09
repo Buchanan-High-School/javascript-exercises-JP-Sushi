@@ -7,7 +7,7 @@ const person = {
 const teachers = [
     {
         "name": "Mrs. Frost",
-        "type": "Environmental Science",
+        "subject": "Environmental Science",
         "experience": 25
     },
     {
@@ -60,28 +60,15 @@ function task2() {
 }
 
 function task3() {
-    [
-        {
-            "name": "Mrs. Frost",
-            "type": "Environmental Science",
-            "experience": 25
-        },
-        {
-            "name": "Mr. Cribley",
-            "subject": "Biology",
-            "experience": 15
-        },
-        {
-            "name": "Mrs. Lentz",
-            "subject": "Physical Science",
-            "experience": 22
-        },
-        {
-            "name": "Mr. Bennett",
-            "subject": "Chemistry",
-            "experience": 15
-        },
-    ]
+    document.querySelector("#task3") 
+    teachers.forEach(teacher =>{
+        let template = `Their name is ${teachers["name"]} they teach ${teachers["subject"]} their experience is ${teachers["experience"]}`
+    console.log(template)
+    let target = document.querySelector("#task3")
+    let el = document.createElement("p")
+  el.innerText = template;
+  target.appendChild(el)
+    })
     // 1. Use the array of teachers to start a loop.
     // 2. In the loop, add a "role" property to each object as they go through the loop
     // 3. Use a template string to add a sentence about each person into the #task3 container.
