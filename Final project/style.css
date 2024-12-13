@@ -13,6 +13,17 @@
 }
 
 html {
-    background: linear-gradient(orange,red);
+    background: linear-gradient(rgb(207, 2, 2), black);
     background-repeat: no-repeat;
+}
+
+img {
+    display: flex;
+    border: 5px solid darkblue;
+    width: 725px;
+    height: 450px;
+}
+
+footer {
+    color: var(--color-light)
 }
