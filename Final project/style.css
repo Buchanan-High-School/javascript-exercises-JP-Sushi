@@ -1,0 +1,18 @@
+:root {
+    font-size: 24px;
+    --color-dark: #222;
+    --color-light: #eee;
+}
+
+* {
+    font-style: oblique;
+    box-sizing: border-box;
+    font-weight: 1000;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(orange,red);
+    background-repeat: no-repeat;
+}

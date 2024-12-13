@@ -10,7 +10,7 @@ const searchInput = document.querySelector(".search-input")
 searchForm.addEventListener("keyup", () => {
     let searchTerm = searchInput.value.toLowerCase();
     console.log(searchTerm)
-    filteredProducts = filteredProducts.filter(product => {
+    filteredProducts = products.filter(product => {
         return product.title.includes(searchTerm)
     })
     displayProducts()
