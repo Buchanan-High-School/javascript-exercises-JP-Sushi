@@ -15,6 +15,8 @@
 html {
     background: linear-gradient(rgb(207, 2, 2), black);
     background-repeat: no-repeat;
+    display: flex; 
+    justify-content:center;
 }
 
 img {
@@ -26,4 +28,15 @@ img {
 
 footer {
     color: var(--color-light)
+}
+
+.input-form {
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+}
+
+p {
+    justify-content:center;
+    padding: 20px;
 }

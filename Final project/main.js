@@ -3,7 +3,7 @@ let filteredProducts = [...products]
 console.log(filteredProducts)
 
 // SELECTORS
-const productsContainer = document.querySelector(".not-sidebar")
+const productsContainer = document.querySelector(".car-pictures")
 const searchForm = document.querySelector(".input-form")
 const searchInput = document.querySelector(".search-input")
 
