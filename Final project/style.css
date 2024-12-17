@@ -20,7 +20,6 @@ html {
 }
 
 img {
-    display: flex;
     border: 5px solid darkblue;
     width: 725px;
     height: 450px;

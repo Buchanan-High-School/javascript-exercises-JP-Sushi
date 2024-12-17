@@ -9,7 +9,6 @@ const searchInput = document.querySelector(".search-input")
 
 searchForm.addEventListener("keyup", () => {
     let searchTerm = searchInput.value.toLowerCase();
-    console.log(searchTerm)
     filteredProducts = products.filter(product => {
         return product.title.includes(searchTerm)
     })
@@ -28,6 +27,8 @@ function displayProducts() {
                     <footer>
                         <p class="product-name">${product.title}</p>
                         <p class="product-price">${product.price}</p>
+                        <p class="product-useige-no">${product.inpared}</p>
+                        <p class="product-useige-yes">${product.notinpared}</p>
                     </footer>
                 </article>`
     }).join("")
