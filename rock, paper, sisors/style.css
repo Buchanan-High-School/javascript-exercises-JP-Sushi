@@ -1,0 +1,12 @@
+html {
+    background: linear-gradient(white, rgb(143, 179, 255), rgb(37, 59, 255), blue, navy, rgb(0, 0, 68), black);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+button {
+    padding: 10px;
+    margin: 15px;
+    border: 5px solid black;
+    display: flex;
+}
