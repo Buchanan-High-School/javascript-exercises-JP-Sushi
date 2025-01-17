@@ -32,5 +32,5 @@ function getDogFact() {
         return requset.json()
     }).then(result => {
         console.log(result)
-        container.textContent = result.data[0];
+        container.textContent = result.data[0].attributes.body;
     })}
