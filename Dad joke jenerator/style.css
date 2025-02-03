@@ -1,0 +1,27 @@
+:root {
+    font-size: 16px;
+    --color-light: #eee;
+    --color-dark: #222;
+    --color-brown: #964B00;
+}
+
+* {
+    font-family: system-ui;
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid black;
+    font-weight: bold;
+    background: linear-gradient(rgb(61, 25, 1),rgb(26, 94, 26),rgb(165, 109, 6),rgb(255, 0, 221),rgb(61, 25, 1), rgb(136, 136, 4), rgb(61, 25, 1));
+    height: 100vh;
+    color: #964B00;
+}
+
+input {
+    color: blue;
+}
+
+textarea {
+    color: forestgreen;
+}
