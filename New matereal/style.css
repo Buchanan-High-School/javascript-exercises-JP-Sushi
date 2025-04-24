@@ -1,0 +1,13 @@
+html {
+    background: linear-gradient(yellowgreen, black);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+}
+
+.response {
+    border: 5px solid black;
+}

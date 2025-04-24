@@ -21,9 +21,13 @@ button {
   margin: 1rem 0;
   line-height: 1.5;
   font-size: 1.2rem;
-  background-color: #333;
-  color: #eee;
-  border: none;
+  background-color: #7BF1A8;
+  border: 2px solid #0C6F32;
+}
+
+code {
+    background-color: #adadad;
+    padding-inline: 0.25em;
 }
 
 button:hover {
@@ -35,16 +39,3 @@ button:hover {
   padding: 1rem;
 }
 
-#task1 > #text-content {
-  height: 3rem;
-  width: 100%;
-  border: 1px solid #999;
-}
-
-.color {
-  background-color: #555;
-}
-
-new {
-  color: blue
-}

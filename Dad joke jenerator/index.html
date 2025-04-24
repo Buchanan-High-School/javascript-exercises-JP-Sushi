@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button id="dad-joke">Dad Joke</button>
+    <div class="response"></div>
+    <form id="joke-data" class="stack">
+        <label for="notes">
+            Notes for the joke
+        </label>
+    <input type="hidden" name="jokeId" id="jokeId">
+    <textarea name="notes" id="" id="notes"></textarea>
+    <label for="score">Rate</label>
+    <input type="number" name="score" id="score" min="1" max="5">
+    <input type="submit" value="Save" id="save">
+    <ul class="saved"></ul>
+</form>
+</body>
+</html>
